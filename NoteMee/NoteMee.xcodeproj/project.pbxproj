@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6A063BA7D00526C3A62E43 /* Pods_NoteMee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4DB3B64038594D68FD088D /* Pods_NoteMee.framework */; };
+		6840201621A8F08700A35A97 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6840201521A8F08700A35A97 /* File.swift */; };
+		68F456D721ABC627009FEBD5 /* 070 Aqua Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F456D621ABC627009FEBD5 /* 070 Aqua Splash.png */; };
+		69762AE821ABA29A00845610 /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69762AE721ABA29A00845610 /* DonationViewController.swift */; };
+		69762AEA21ABA52C00845610 /* LogUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69762AE921ABA52C00845610 /* LogUser.swift */; };
+		69762AEC21ABAB2200845610 /* 49-15-1-20-22-54-35m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69762AEB21ABAB2100845610 /* 49-15-1-20-22-54-35m.jpg */; };
+		69762AEE21ABAB2700845610 /* 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69762AED21ABAB2700845610 /* 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg */; };
+		69762AF021ABADD300845610 /* Donasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69762AEF21ABADD300845610 /* Donasi.swift */; };
+		69762AF221ABB54700845610 /* KameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69762AF121ABB54700845610 /* KameraViewController.swift */; };
+		69762AF421ABB6FC00845610 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69762AF321ABB6FC00845610 /* NewViewController.swift */; };
+		697CD4D721A7C1DF0000E403 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4D621A7C1DF0000E403 /* RegisterViewController.swift */; };
+		697CD4D921A7C3A20000E403 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4D821A7C3A20000E403 /* HomeViewController.swift */; };
+		697CD4DB21A7C5120000E403 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4DA21A7C5120000E403 /* ProfileViewController.swift */; };
+		697CD4DD21A7C5750000E403 /* MyFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4DC21A7C5750000E403 /* MyFilesViewController.swift */; };
+		697CD4DF21A7C5870000E403 /* NewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4DE21A7C5870000E403 /* NewProjectViewController.swift */; };
+		697CD4E121A7CB020000E403 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697CD4E021A7CB020000E403 /* User.swift */; };
+		6989CFEB21A7C0FA00C3A285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6989CFEA21A7C0FA00C3A285 /* AppDelegate.swift */; };
+		6989CFED21A7C0FA00C3A285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6989CFEC21A7C0FA00C3A285 /* ViewController.swift */; };
+		6989CFF021A7C0FA00C3A285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6989CFEE21A7C0FA00C3A285 /* Main.storyboard */; };
+		6989CFF221A7C0FC00C3A285 /* Assets.xcassets1 in Resources */ = {isa = PBXBuildFile; fileRef = 6989CFF121A7C0FC00C3A285 /* Assets.xcassets1 */; };
+		6989CFF521A7C0FC00C3A285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6989CFF321A7C0FC00C3A285 /* LaunchScreen.storyboard */; };
+		6F51D65D21AE28D200052ED6 /* logocrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F51D65C21AE28D200052ED6 /* logocrop.png */; };
+		6F51D66721AE3BF500052ED6 /* my profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F51D66221AE3BF500052ED6 /* my profile.png */; };
+		6F51D66A21AE3E8400052ED6 /* new file.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F51D66821AE3E8300052ED6 /* new file.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35F2ED3C2446B3F641E897A3 /* Pods-NoteMee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteMee.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoteMee/Pods-NoteMee.release.xcconfig"; sourceTree = "<group>"; };
+		6840201521A8F08700A35A97 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		68F456D621ABC627009FEBD5 /* 070 Aqua Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "070 Aqua Splash.png"; sourceTree = "<group>"; };
+		69762AE721ABA29A00845610 /* DonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
+		69762AE921ABA52C00845610 /* LogUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogUser.swift; sourceTree = "<group>"; };
+		69762AEB21ABAB2100845610 /* 49-15-1-20-22-54-35m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "49-15-1-20-22-54-35m.jpg"; sourceTree = "<group>"; };
+		69762AED21ABAB2700845610 /* 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg; sourceTree = "<group>"; };
+		69762AEF21ABADD300845610 /* Donasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donasi.swift; sourceTree = "<group>"; };
+		69762AF121ABB54700845610 /* KameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KameraViewController.swift; sourceTree = "<group>"; };
+		69762AF321ABB6FC00845610 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		697CD4D621A7C1DF0000E403 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		697CD4D821A7C3A20000E403 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		697CD4DA21A7C5120000E403 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		697CD4DC21A7C5750000E403 /* MyFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilesViewController.swift; sourceTree = "<group>"; };
+		697CD4DE21A7C5870000E403 /* NewProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectViewController.swift; sourceTree = "<group>"; };
+		697CD4E021A7CB020000E403 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6989CFE721A7C0FA00C3A285 /* NoteMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6989CFEA21A7C0FA00C3A285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6989CFEC21A7C0FA00C3A285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6989CFEF21A7C0FA00C3A285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6989CFF121A7C0FC00C3A285 /* Assets.xcassets1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets.xcassets1; sourceTree = "<group>"; };
+		6989CFF421A7C0FC00C3A285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6989CFF621A7C0FC00C3A285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F51D65C21AE28D200052ED6 /* logocrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logocrop.png; path = ../../../logocrop.png; sourceTree = "<group>"; };
+		6F51D66221AE3BF500052ED6 /* my profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "my profile.png"; path = "../../../my profile.png"; sourceTree = "<group>"; };
+		6F51D66821AE3E8300052ED6 /* new file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new file.png"; path = "../../../new file.png"; sourceTree = "<group>"; };
+		71B3DA7F806929F86DD822BB /* Pods-NoteMee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteMee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoteMee/Pods-NoteMee.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4DB3B64038594D68FD088D /* Pods_NoteMee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteMee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6989CFE421A7C0FA00C3A285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A063BA7D00526C3A62E43 /* Pods_NoteMee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6989CFDE21A7C0FA00C3A285 = {
+			isa = PBXGroup;
+			children = (
+				6989CFE921A7C0FA00C3A285 /* NoteMee */,
+				6989CFE821A7C0FA00C3A285 /* Products */,
+				D2C4B73B5B0813843D8B9318 /* Pods */,
+				9FBAA4E5283AE3AD9512FD4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6989CFE821A7C0FA00C3A285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6989CFE721A7C0FA00C3A285 /* NoteMee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6989CFE921A7C0FA00C3A285 /* NoteMee */ = {
+			isa = PBXGroup;
+			children = (
+				6F51D66821AE3E8300052ED6 /* new file.png */,
+				6F51D66221AE3BF500052ED6 /* my profile.png */,
+				69762AED21ABAB2700845610 /* 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg */,
+				69762AEB21ABAB2100845610 /* 49-15-1-20-22-54-35m.jpg */,
+				68F456D621ABC627009FEBD5 /* 070 Aqua Splash.png */,
+				6F51D65C21AE28D200052ED6 /* logocrop.png */,
+				6989CFEA21A7C0FA00C3A285 /* AppDelegate.swift */,
+				6989CFEC21A7C0FA00C3A285 /* ViewController.swift */,
+				6989CFEE21A7C0FA00C3A285 /* Main.storyboard */,
+				6989CFF121A7C0FC00C3A285 /* Assets.xcassets1 */,
+				6989CFF321A7C0FC00C3A285 /* LaunchScreen.storyboard */,
+				6989CFF621A7C0FC00C3A285 /* Info.plist */,
+				697CD4D621A7C1DF0000E403 /* RegisterViewController.swift */,
+				697CD4D821A7C3A20000E403 /* HomeViewController.swift */,
+				697CD4DA21A7C5120000E403 /* ProfileViewController.swift */,
+				697CD4DC21A7C5750000E403 /* MyFilesViewController.swift */,
+				697CD4DE21A7C5870000E403 /* NewProjectViewController.swift */,
+				697CD4E021A7CB020000E403 /* User.swift */,
+				6840201521A8F08700A35A97 /* File.swift */,
+				69762AE721ABA29A00845610 /* DonationViewController.swift */,
+				69762AE921ABA52C00845610 /* LogUser.swift */,
+				69762AEF21ABADD300845610 /* Donasi.swift */,
+				69762AF121ABB54700845610 /* KameraViewController.swift */,
+				69762AF321ABB6FC00845610 /* NewViewController.swift */,
+			);
+			path = NoteMee;
+			sourceTree = "<group>";
+		};
+		9FBAA4E5283AE3AD9512FD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4DB3B64038594D68FD088D /* Pods_NoteMee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C4B73B5B0813843D8B9318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B3DA7F806929F86DD822BB /* Pods-NoteMee.debug.xcconfig */,
+				35F2ED3C2446B3F641E897A3 /* Pods-NoteMee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6989CFE621A7C0FA00C3A285 /* NoteMee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6989CFF921A7C0FC00C3A285 /* Build configuration list for PBXNativeTarget "NoteMee" */;
+			buildPhases = (
+				0AB9CF0A0814DE466B74B7DF /* [CP] Check Pods Manifest.lock */,
+				6989CFE321A7C0FA00C3A285 /* Sources */,
+				6989CFE421A7C0FA00C3A285 /* Frameworks */,
+				6989CFE521A7C0FA00C3A285 /* Resources */,
+				29931D8EDA6637B7534A80A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteMee;
+			productName = NoteMee;
+			productReference = 6989CFE721A7C0FA00C3A285 /* NoteMee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6989CFDF21A7C0FA00C3A285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = tubes;
+				TargetAttributes = {
+					6989CFE621A7C0FA00C3A285 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6989CFE221A7C0FA00C3A285 /* Build configuration list for PBXProject "NoteMee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6989CFDE21A7C0FA00C3A285;
+			productRefGroup = 6989CFE821A7C0FA00C3A285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6989CFE621A7C0FA00C3A285 /* NoteMee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6989CFE521A7C0FA00C3A285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F51D65D21AE28D200052ED6 /* logocrop.png in Resources */,
+				69762AEE21ABAB2700845610 /* 160_F_84671939_jxymoYZO8Oeacc3JRBDE8bSXBWj0ZfA9.jpg in Resources */,
+				6989CFF521A7C0FC00C3A285 /* LaunchScreen.storyboard in Resources */,
+				6F51D66A21AE3E8400052ED6 /* new file.png in Resources */,
+				68F456D721ABC627009FEBD5 /* 070 Aqua Splash.png in Resources */,
+				69762AEC21ABAB2200845610 /* 49-15-1-20-22-54-35m.jpg in Resources */,
+				6F51D66721AE3BF500052ED6 /* my profile.png in Resources */,
+				6989CFF221A7C0FC00C3A285 /* Assets.xcassets1 in Resources */,
+				6989CFF021A7C0FA00C3A285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB9CF0A0814DE466B74B7DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoteMee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29931D8EDA6637B7534A80A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NoteMee/Pods-NoteMee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoteMee/Pods-NoteMee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6989CFE321A7C0FA00C3A285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69762AF221ABB54700845610 /* KameraViewController.swift in Sources */,
+				697CD4DD21A7C5750000E403 /* MyFilesViewController.swift in Sources */,
+				697CD4D721A7C1DF0000E403 /* RegisterViewController.swift in Sources */,
+				6989CFED21A7C0FA00C3A285 /* ViewController.swift in Sources */,
+				69762AEA21ABA52C00845610 /* LogUser.swift in Sources */,
+				697CD4DF21A7C5870000E403 /* NewProjectViewController.swift in Sources */,
+				697CD4E121A7CB020000E403 /* User.swift in Sources */,
+				697CD4DB21A7C5120000E403 /* ProfileViewController.swift in Sources */,
+				6989CFEB21A7C0FA00C3A285 /* AppDelegate.swift in Sources */,
+				69762AF421ABB6FC00845610 /* NewViewController.swift in Sources */,
+				6840201621A8F08700A35A97 /* File.swift in Sources */,
+				69762AF021ABADD300845610 /* Donasi.swift in Sources */,
+				69762AE821ABA29A00845610 /* DonationViewController.swift in Sources */,
+				697CD4D921A7C3A20000E403 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6989CFEE21A7C0FA00C3A285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6989CFEF21A7C0FA00C3A285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6989CFF321A7C0FC00C3A285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6989CFF421A7C0FC00C3A285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6989CFF721A7C0FC00C3A285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6989CFF821A7C0FC00C3A285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6989CFFA21A7C0FC00C3A285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B3DA7F806929F86DD822BB /* Pods-NoteMee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NoteMee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tubes.com.NoteMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6989CFFB21A7C0FC00C3A285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F2ED3C2446B3F641E897A3 /* Pods-NoteMee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NoteMee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tubes.com.NoteMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6989CFE221A7C0FA00C3A285 /* Build configuration list for PBXProject "NoteMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6989CFF721A7C0FC00C3A285 /* Debug */,
+				6989CFF821A7C0FC00C3A285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6989CFF921A7C0FC00C3A285 /* Build configuration list for PBXNativeTarget "NoteMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6989CFFA21A7C0FC00C3A285 /* Debug */,
+				6989CFFB21A7C0FC00C3A285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6989CFDF21A7C0FA00C3A285 /* Project object */;
+}

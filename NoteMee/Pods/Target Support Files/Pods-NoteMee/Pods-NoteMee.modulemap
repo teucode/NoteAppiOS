@@ -1,0 +1,6 @@
+framework module Pods_NoteMee {
+  umbrella header "Pods-NoteMee-umbrella.h"
+
+  export *
+  module * { export * }
+}
